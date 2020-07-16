@@ -1,0 +1,168 @@
+#projects {
+    padding: 8rem 0;
+    background: rgba(0, 34, 68, 0.2);
+}
+
+#projects > h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem; font-weight: 700;
+    margin-bottom: 8rem;
+}
+
+#projects > h3 .dot {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+    background: var(--goldish);
+    height: 10px; width: 10px;
+}
+
+#projects .container .row .col-md-6 .card {
+    background: #fff; margin-bottom: 2rem;
+    border-radius: 0 !important;
+    width: 100% !important; height: 26rem;
+    overflow: hidden; border: none;
+    transition: all .5s ease;
+    box-shadow: .1rem .1rem 20px rgba(0, 0, 0, .6);
+}
+#projects .container .row .col-md-6 .card:hover {
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, .8);
+}
+#projects .container .row .col-md-6 .card .card-header {
+    width: 100%; height: 13rem;
+    border: none; transition: all .5s;
+}
+#projects .container .row .col-md-6 .card:hover .card-header {
+    height: 8rem;
+}
+#projects .container .row .col-md-6 .card .card-body {
+    height: 9rem; position: relative; width: 100%;
+    background: #fff; text-align: center;
+    transition: all .5s ease;
+}
+#projects .container .row .col-md-6 .card:hover .card-body {
+    height: 14rem;
+}
+#projects .container .row .col-md-6 .card .card-body .card-category {
+    display: flex; justify-content: center; align-items: center;
+    position: absolute; top: -2rem; right: 0 !important;
+    padding: 0 1.55rem; height: 2rem;
+    background: var(--pinkish); color: var(--whiteish);
+    font-size: .75rem; font-weight: 400;
+    text-transform: uppercase;
+}
+#projects .container .row .col-md-6 .card .card-body h4.card-title {
+    font-weight: 700; color: rgb(33, 37, 41);
+    text-transform: uppercase;
+    letter-spacing: 2px; margin-bottom: 20px; margin-top: 10px;
+}
+#projects .container .row .col-md-6 .card .card-body p.card-text {
+    color: var(--pinkish) !important; letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1.125rem; text-align: center;
+    margin-bottom: 20px;
+}
+#projects .container .row .col-md-6 .card .card-body .card-description {
+    position: relative;
+    color: rgb(33, 37, 41) !important;
+    opacity: 0; font-weight: 400; text-align: center;
+    transform: translateY(15px);
+    transition-delay: 0s; margin: 0;
+    transition: opacity .2s ease, transform .4s ease;
+}
+#projects .container .row .col-md-6 .card:hover .card-description {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.3s;
+}
+#projects .container .row .col-md-6 .card .card-header {
+    padding: 0;
+}
+#projects .container .row .col-md-6 .card .card-header img {
+    width: 100%; height: 15rem;
+    border-radius: 0 !important;
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform .7s ease, opacity .7s ease;
+}
+#projects .container .row .col-md-6 .card:hover .card-header img {
+    opacity: .9;
+    transform: scale(1.3);
+}
+#projects .container .row .col-md-6 .card .card-footer {
+    background: transparent; border: none;
+    display: flex !important; justify-content: space-around;
+    width: 100%; height: 4rem;
+}
+#projects .container .row .col-md-6 .card .card-footer .btn {
+    border-radius: 0 !important;
+    border: 2px solid #999;
+    color: rgb(33, 37, 41);
+    letter-spacing: 4px; font-weight: 700;
+    padding: .5rem .875rem;
+    font-size: .95rem;
+    transition: all .25s ease;
+}
+#projects .container .row .col-md-6 .card .card-footer .btn i {
+    padding-left: 10px;
+}
+#projects .container .row .col-md-6 .card .card-footer .btn:hover {
+    background: var(--goldish); color: var(--whiteish);
+}
+
+
+/*
+-------------------------------------------
+MEDIA QUERIES
+-------------------------------------------
+*/
+
+/* EXTRA SMALL*/
+@media (max-width: 575.98px) {
+
+}
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #projects {
+        padding: 6rem 0 3rem;
+    }
+    #projects > h3 {
+        margin-bottom: 4rem;
+    }
+    #projects .container {
+        padding: 0;
+    }
+    #projects .container .row {
+        display: flex; justify-content: center; align-items: center;
+    }
+    #projects .container .row .col-md-6 .card .card-body h4.card-title {
+        font-size: 1.1rem;
+    }
+    #projects .container .row .col-md-6 .card .card-body p.card-text {
+        font-size: 1.05rem;
+    }
+    #projects .container .row .col-md-6 .card .card-body .card-description {
+        font-size: 1rem;
+    }
+    #projects .container .row .col-md-6 .card .card-footer .btn {
+        font-size: .8rem;
+    }
+}
+
+/* MEDIUM */
+@media (max-width: 991.98px) {
+
+}
+
+/* LARGE */
+@media (max-width: 1199.98px) {
+
+}
+
+/* EXTRA LARGE*/
+@media (min-width: 1200px) {
+
+}

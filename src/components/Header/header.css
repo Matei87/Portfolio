@@ -1,0 +1,103 @@
+header {
+    height: 100vh; width: 100%;
+    background: linear-gradient(to right bottom, rgba(119,119,119,0.8), rgba(51,51,51,0.8)), url("../../img/header-background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex !important; justify-content: center; align-items: center !important; flex-direction: column;
+}
+
+header h1, header h2, header button {
+    z-index: 2; color: var(--white) !important;
+}
+
+header h1 {
+    color: var(--whiteish); font-size: 3.35rem;
+    flex-direction: row;
+}
+header h1 span {
+    color: var(--pinkish);
+}
+header h2 {
+    font-size: 3.75rem; margin-bottom: 2rem;
+}
+header a {
+    padding: .9rem 1.75rem !important;
+    border: 2px solid var(--whiteish) !important;
+    font-weight: 600 !important;
+    letter-spacing: 3px;
+    font-size: 1rem !important;
+    border-radius: 0 !important;
+    color: var(--whiteish) !important;
+}
+
+header a:hover {
+    background: var(--goldish) !important;
+    border: 2px solid var(--goldish) !important;
+    text-decoration: none;
+    color: var(--whiteish);
+}
+header a i {
+    padding-left: .5rem;
+    transition: .25s;
+}
+header a:hover i {
+    transform: rotate(90deg);
+}
+
+
+/*
+-------------------------------------------
+MEDIA QUERIES
+-------------------------------------------
+*/
+
+/* EXTRA SMALL*/
+@media (max-width: 575.98px) {
+    header h1 {
+        font-size: 1.7rem;
+    }
+    header h2 {
+        font-size: 1.5rem;
+    }
+    header a {
+        padding: .75rem 1.35rem !important;
+        font-size: .8rem !important;
+    }
+}
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 2.3rem;
+    }
+    header a {
+        padding: .75rem 1.55rem !important;
+        font-size: .8rem !important;
+    }
+
+}
+
+/* MEDIUM */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 2.9rem;
+    }
+}
+
+/* LARGE */
+@media (max-width: 1199.98px) {
+
+}
+
+/* EXTRA LARGE*/
+@media (min-width: 1200px) {
+
+}

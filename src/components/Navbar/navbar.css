@@ -1,0 +1,48 @@
+* :focus {
+    outline: none !important;
+}
+.btn:focus {
+    box-shadow: none !important;
+}
+nav {
+    border-bottom: 3px inset var(--goldish);
+    opacity: .95;
+    position: fixed !important; top: 0; width: 100%;
+    background: #343a40 !important;
+    z-index: 999;
+}
+
+.navbar-brand a {
+    font-weight: 900;
+    font-size: 1.9rem !important;
+    color: var(--pinkish) !important;
+    transition: all .2s;
+}
+.navbar-brand a:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+nav a.nav-link {
+    margin: 0; font-size: 1.15rem;
+    display: inline-block;
+    color: var(--whiteish) !important;
+    text-transform: uppercase;
+}
+nav a.nav-link.active {
+    color: var(--pinkish) !important;
+}
+
+nav a.nav-link:hover {
+    color: var(--greyish) !important;
+    cursor: pointer;
+}
+nav a.nav-link::after {
+    display: block;
+    content: '';
+    border-bottom: 2px solid var(--pinkish);
+    width: 0;
+    transition: all .35s ease;
+}
+nav a.nav-link:hover:after {
+    width: 100%;
+}
