@@ -30,7 +30,6 @@ header a {
     border-radius: 0 !important;
     color: var(--whiteish) !important;
 }
-
 header a:hover {
     background: var(--goldish) !important;
     border: 2px solid var(--goldish) !important;

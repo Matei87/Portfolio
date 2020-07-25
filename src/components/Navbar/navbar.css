@@ -27,6 +27,8 @@ nav a.nav-link {
     display: inline-block;
     color: var(--whiteish) !important;
     text-transform: uppercase;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 nav a.nav-link.active {
     color: var(--pinkish) !important;
