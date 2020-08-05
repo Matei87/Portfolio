@@ -35,7 +35,7 @@
     font-weight: 600;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > p {
-    font-weight: 500;
+    font-weight: 500; font-size: .95rem;
 }
 
 #about .container .row:last-of-type .about-me {
@@ -51,7 +51,7 @@
 }
 #about .container .row:last-of-type .about-me p {
     display: inline !important; text-align: center;
-    font-size: .875rem; font-weight: 500;
+    font-size: .95rem; font-weight: 500;
     max-width: 300px;
 }
 #about .container .row:last-of-type .about-me p span.name {
@@ -69,7 +69,7 @@
 #about .container .row:last-of-type .skills span {
     color: var(--whiteish); background: rgba(0, 34, 68, 0.8);
     margin: .5rem; border: 3px solid var(--goldish);
-    font-weight: 600;
+    font-weight: 600; font-size: 1.125rem;
     display: flex; justify-content: center; align-items: center;
     transition: all .15s;
 }
@@ -119,9 +119,6 @@ MEDIA QUERIES
     }
     #about .container .row:first-of-type .col-sm-6 h4 {
         font-size: 1.2rem; font-weight: 700 !important;
-    }
-    #about .container .row:first-of-type .col-sm-6 p {
-        font-size: .75rem; 
     }
 }
 /* SMALL */
