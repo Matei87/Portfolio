@@ -51,6 +51,9 @@ MEDIA QUERIES
  #interests .container .row .col-sm-12 {
      width: 90%;
  }
+ #interests .container .row .col-sm-12 p {
+     padding: 0;
+ }
 }
 /* SMALL */
 @media (max-width: 767.98px) {
