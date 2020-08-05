@@ -35,7 +35,7 @@
     font-weight: 600;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > p {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #about .container .row:last-of-type .about-me {
@@ -51,7 +51,7 @@
 }
 #about .container .row:last-of-type .about-me p {
     display: inline !important; text-align: center;
-    font-size: .875rem; font-weight: 400;
+    font-size: .875rem; font-weight: 500;
     max-width: 300px;
 }
 #about .container .row:last-of-type .about-me p span.name {
@@ -111,7 +111,18 @@ MEDIA QUERIES
 
 /* EXTRA SMALL*/
 @media (max-width: 575.98px) {
-
+    #about .container .row:first-of-type {
+        justify-content: center;
+    }
+    #about .container .row:first-of-type .col-sm-6 {
+        width: 45%;  padding: 0 10px;
+    }
+    #about .container .row:first-of-type .col-sm-6 h4 {
+        font-size: 1.2rem; font-weight: 700 !important;
+    }
+    #about .container .row:first-of-type .col-sm-6 p {
+        font-size: .75rem; 
+    }
 }
 /* SMALL */
 @media (max-width: 767.98px) {

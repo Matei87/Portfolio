@@ -5,7 +5,7 @@ class About extends React.Component {
 
     render() {
         return (
-            <section id="about"  >
+            <section id="about">
                 <h3>About <span className="dot" /></h3>
                 <div className="container">
                     <div className="row">
@@ -55,7 +55,7 @@ class About extends React.Component {
                     <div className="row" >
 
                         <div className=" col-sm-12 col-md-6 about-me wow animate__animated animate__fadeInLeft animate__fast">
-                            <img src={require ('../../img/me.png')} alt="me" />
+                            <img src={require('../../img/me.png')} alt="me" />
                             <h4>Who's this guy?</h4>
                             <p>My name is <span className="name">Mircea</span> and I'm a front-end developer.
                                 I enjoy spending my free time increasing my knowledge of Web Development and building new and challenging projects.

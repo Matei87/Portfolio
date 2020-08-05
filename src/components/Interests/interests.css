@@ -26,8 +26,7 @@
 }
 #interests .row .col-md-6 p {
     padding: 1% 5%;
-    letter-spacing: 2px;
-    font-weight: 400; font-size: 1rem;
+    font-weight: 500; font-size: 1.125rem;
     margin-bottom: 20px; display: block;
 }
 #interests p::first-letter {
@@ -49,7 +48,9 @@ MEDIA QUERIES
 
 /* EXTRA SMALL*/
 @media (max-width: 575.98px) {
-
+ #interests .container .row .col-sm-12 {
+     width: 90%;
+ }
 }
 /* SMALL */
 @media (max-width: 767.98px) {
@@ -72,7 +73,7 @@ MEDIA QUERIES
 @media (min-width: 768px) and (max-width: 991.98px) {
     #interests .row .col-md-6 h4 {
         padding: 5% 5% 1%; font-size: 1.5rem; margin-bottom: 10px;
-        font-weight: 700; color: rgb(33, 37, 41);
+        color: rgb(33, 37, 41);
         text-transform: uppercase;
         letter-spacing: 2px; line-height: 20px;
     }
