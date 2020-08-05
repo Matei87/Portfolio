@@ -31,7 +31,7 @@
     font-size: 3rem;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > h4 {
-    text-transform: uppercase;
+    text-transform: uppercase; letter-spacing: 2px;
     font-weight: 600;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > p {
@@ -71,7 +71,7 @@
     margin: .5rem; border: 3px solid var(--goldish);
     font-weight: 600; font-size: 1.125rem;
     display: flex; justify-content: center; align-items: center;
-    transition: all .15s;
+    transition: all .15s; letter-spacing: 2px;
 }
 #about .container .row:last-of-type .skills span:hover {
     background: var(--whiteish); color: rgba(0, 34, 68, 0.8);
@@ -115,7 +115,7 @@ MEDIA QUERIES
         justify-content: center;
     }
     #about .container .row:first-of-type .col-sm-6 {
-        width: 45%;  padding: 0 10px;
+        width: 47%;  padding: 0 5px;
     }
     #about .container .row:first-of-type .col-sm-6 h4 {
         font-size: 1.2rem; font-weight: 700 !important;

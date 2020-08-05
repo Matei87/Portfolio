@@ -59,7 +59,7 @@
     letter-spacing: 2px; margin-bottom: 20px; margin-top: 10px;
 }
 #projects .container .row .col-md-6 .card .card-body p.card-text {
-    color: var(--pinkish) !important; letter-spacing: 2px;
+    color: var(--pinkish) !important;
     font-weight: 500;
     font-size: 1.125rem; text-align: center;
     margin-bottom: 20px;
