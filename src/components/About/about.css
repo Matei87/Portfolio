@@ -66,6 +66,9 @@
       "item7 item7 item8 item8";
     margin: 4rem 0 4rem 0;
 }
+#about .container .row:last-of-type .skills {
+    margin: auto 0;
+}
 #about .container .row:last-of-type .skills span {
     color: var(--whiteish); background: rgba(0, 34, 68, 0.8);
     margin: .5rem; border: 3px solid var(--goldish);
