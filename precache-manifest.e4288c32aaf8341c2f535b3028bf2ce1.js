@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bceaccb7f9d96ded5c317480d8c4ddf",
+    "revision": "438aa7080f8e0eabc8325ecd91d845b6",
     "url": "/Portofolio/index.html"
   },
   {
-    "revision": "9795a1c9020b36183ae1",
+    "revision": "b97bbf75fd6f7b34a1de",
     "url": "/Portofolio/static/css/2.37620a9f.chunk.css"
   },
   {
-    "revision": "abf1457f24ceb67e6d81",
+    "revision": "7d56565d582858f5e0f3",
     "url": "/Portofolio/static/css/main.3bc8c281.chunk.css"
   },
   {
-    "revision": "9795a1c9020b36183ae1",
-    "url": "/Portofolio/static/js/2.538a0c00.chunk.js"
+    "revision": "b97bbf75fd6f7b34a1de",
+    "url": "/Portofolio/static/js/2.36e601ed.chunk.js"
   },
   {
     "revision": "31ac725c350433707f281916a808f78f",
-    "url": "/Portofolio/static/js/2.538a0c00.chunk.js.LICENSE.txt"
+    "url": "/Portofolio/static/js/2.36e601ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abf1457f24ceb67e6d81",
-    "url": "/Portofolio/static/js/main.a9e182fb.chunk.js"
+    "revision": "7d56565d582858f5e0f3",
+    "url": "/Portofolio/static/js/main.0df9355f.chunk.js"
   },
   {
     "revision": "ea7818537f0bd195c62b",
@@ -66,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6a18de43145978d5465003940ebd60e",
     "url": "/Portofolio/static/media/weather.c6a18de4.png"
+  },
+  {
+    "revision": "fca1b07c943c95f0343488b1bc910439",
+    "url": "/Portofolio/static/media/world-countries.fca1b07c.png"
   }
 ]);
