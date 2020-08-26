@@ -1,6 +1,9 @@
 # Portofolio
+Personal portofolio where i put my projects.
 
-- Used REACT/HTML/CSS for structure and design
-- Bootstrap for responsive design
-- Projects added weekly/monthly, stay tuned 😂
+# Built with
 
+* React
+* Bootstrap
+* Animate.css
+* Wowjs

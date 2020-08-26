@@ -73,7 +73,7 @@ class Projects extends React.Component {
                                     <div className="card-category">Javascript</div>
                                     <h4 className="card-title">E-Shop</h4>
                                     <p className="card-text">E-shop for clothes</p>
-                                    <p className="card-description">E-shop is a JavaScript application to browse clothing online. Discover the latest fashion & trends.</p>
+                                    <p className="card-description">E-shop is a JavaScript application to browse clothing online. Discover the latest fashion trends.</p>
                                 </div>
                                 <div className="card-footer">
                                     <a href="https://github.com/Matei87/E-Shop" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
