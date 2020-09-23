@@ -20,7 +20,7 @@ class Contact extends React.Component {
                                 <i className="fab fa-github" />
                             </a>
 
-                            <a href="https://www.linkedin.com/in/matei-mircea-82633047/" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/mateimircea/" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin-in" />
                             </a>
                         </div>
