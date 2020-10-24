@@ -70,16 +70,16 @@ class Projects extends React.Component {
                                 </div>
 
                                 <div className="card-body">
-                                    <div className="card-category">Javascript</div>
-                                    <h4 className="card-title">Movies</h4>
-                                    <p className="card-text">Discover movies</p>
-                                    <p className="card-description">A JavaScript application that keeps track of movies you watch.</p>
+                                    <div className="card-category">React</div>
+                                    <h4 className="card-title">Movie Cloud</h4>
+                                    <p className="card-text">Discover movies &amp; Tv Shows</p>
+                                    <p className="card-description">A React application for movies and tv shows.</p>
                                 </div>
                                 <div className="card-footer">
-                                    <a href="https://github.com/Matei87/Movies" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
+                                    <a href="https://github.com/Matei87/movie-cloud" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
                                         <i className="fab fa-github" />
                                     </a>
-                                    <a href="https://matei87.github.io/Movies/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
+                                    <a href="https://matei87.github.io/movie-cloud/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
                                         <i className="fas fa-rocket" />
                                     </a>
                                 </div>
