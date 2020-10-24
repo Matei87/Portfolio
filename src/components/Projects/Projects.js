@@ -65,7 +65,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/movie-cloud/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/moviecloud.png")} alt="cinema" className="card-img-top" />
+                                        <img src={require("../../img/cinema.png")} alt="cinema" className="card-img-top" />
                                     </a>
                                 </div>
 
