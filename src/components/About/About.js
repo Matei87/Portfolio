@@ -69,7 +69,7 @@ class About extends React.Component {
                             <span className="item4">SASS</span>
                             <span className="item5">React</span>
                             <span className="item6">Bootstrap</span>
-                            <span className="item7">jQuery</span>
+                            <span className="item7">NPM</span>
                             <span className="item8">Git</span>
                         </div>
 
