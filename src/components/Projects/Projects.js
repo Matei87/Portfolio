@@ -22,8 +22,8 @@ class Projects extends React.Component {
                                 <div className="card-body">
                                     <div className="card-category">React</div>
                                     <h4 className="card-title">Movie Cloud</h4>
-                                    <p className="card-text">Discover movies &amp; Tv Shows</p>
-                                    <p className="card-description">Movie Cloud is a React application where you can find information about latest movies, tv shows or crew.</p>
+                                    <p className="card-text">Discover Movies &amp; TV Shows</p>
+                                    <p className="card-description">Movie Cloud is a React application where you can find information about latest Movies, TV Shows or Crew.</p>
                                 </div>
                                 <div className="card-footer">
                                     <a href="https://github.com/Matei87/movie-cloud" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
@@ -47,8 +47,8 @@ class Projects extends React.Component {
                                 <div className="card-body">
                                     <div className="card-category">React</div>
                                     <h4 className="card-title">Natours</h4>
-                                    <p className="card-text">Travel platform</p>
-                                    <p className="card-description">Natours is a travel platform where you can browse your favorite destination to visit and explore.</p>
+                                    <p className="card-text">Travel Platform</p>
+                                    <p className="card-description">Natours is a Travel Platform where you can browse your favorite destination to visit and explore.</p>
                                 </div>
                                 <div className="card-footer">
                                     <a href="https://github.com/Matei87/Natours" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
@@ -72,8 +72,8 @@ class Projects extends React.Component {
                                 <div className="card-body">
                                     <div className="card-category">React</div>
                                     <h4 className="card-title">World Countries</h4>
-                                    <p className="card-text">Info about countries</p>
-                                    <p className="card-description">Discover some info about world countries.</p>
+                                    <p className="card-text">Info about Countries</p>
+                                    <p className="card-description">Discover some info about World Countries.</p>
                                 </div>
                                 <div className="card-footer">
                                     <a href="https://github.com/Matei87/countries" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
@@ -97,8 +97,8 @@ class Projects extends React.Component {
                                 <div className="card-body">
                                     <div className="card-category">Javascript</div>
                                     <h4 className="card-title">E-Shop</h4>
-                                    <p className="card-text">E-shop for clothes</p>
-                                    <p className="card-description">E-shop is a JavaScript application to browse clothing online. Discover the latest fashion trends.</p>
+                                    <p className="card-text">E-Shop for Clothes</p>
+                                    <p className="card-description">E-Shop is a JavaScript application to browse clothing online. Discover the latest fashion trends.</p>
                                 </div>
                                 <div className="card-footer">
                                     <a href="https://github.com/Matei87/E-Shop" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
@@ -122,7 +122,7 @@ class Projects extends React.Component {
                                 <div className="card-body">
                                     <div className="card-category">Bootstrap</div>
                                     <h4 className="card-title">BlogBoy</h4>
-                                    <p className="card-text">Blog for latest IT news</p>
+                                    <p className="card-text">Blog for latest IT News</p>
                                     <p className="card-description">A responsive Bootstrap Blog theme with admin page.</p>
                                 </div>
                                 <div className="card-footer">
