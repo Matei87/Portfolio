@@ -16,7 +16,7 @@ class Interests extends React.Component {
                         <div className="col-sm-12 col-md-6">
                             <div>
                                 <h4>Coding</h4>
-                                <p>I’m passionate about coding. Because it is usable art. You can create something and people interact with, use, touch and work with.</p>
+                                <p>I’m passionate about coding. Because it is usable art. You can create something that people interact with, use, touch and work with.</p>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ class Interests extends React.Component {
                         <div className="col-sm-12 col-md-6 ">
                             <div>
                                 <h4>Sports</h4>
-                                <p>I allways enjoy doing sports. Started with football when I was a child, athletics in high school and later in to martial arts. And now trying to live healthy by eating good food and going to the gym.</p>
+                                <p>I always enjoy doing sports. Started with football when I was a child, athletics in high school and later in to martial arts. And now trying to live healthy by eating good food and going to the gym.</p>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 wow animate__animated animate__fadeIn animate__slower">
@@ -40,7 +40,7 @@ class Interests extends React.Component {
                         <div className="col-sm-12 col-md-6">
                             <div>
                                 <h4>Video Games</h4>
-                                <p>I was pretty competitive in video games. Where I played for Romania in a sports game named FIFA and was in top 100 romanians when FIFA 2017 was released. </p>
+                                <p>I was pretty competitive in video games. Where I played for Romania in a sports game named FIFA and was in top 100 Romanians when FIFA 2017 was released. </p>
                             </div>
                         </div>
                     </div>

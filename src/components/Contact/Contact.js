@@ -12,7 +12,7 @@ class Contact extends React.Component {
                     <div className="row">
 
                         <div className="col-md-12">
-                            <a href="mailto:mrc_matei@yahoo.com" className="btn btn-outline-primary">
+                            <a href="mailto:mrc.matei@protonmail.com" className="btn btn-outline-primary">
                                 <i className="far fa-envelope" />
                             </a>
 
