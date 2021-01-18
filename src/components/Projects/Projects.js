@@ -39,6 +39,31 @@ class Projects extends React.Component {
                         <div className="col-sm-6 col-md-6 col-lg-4 wow animate__animated animate__fadeInUp animate__delay-1s">
                             <div className="card">
                                 <div className="card-header">
+                                    <a href="https://matei87.github.io/made-clothing/" target="_blank" rel="noopener noreferrer">
+                                        <img src={require("../../img/site2.png")} alt="cinema" className="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div className="card-body">
+                                    <div className="card-category">React</div>
+                                    <h4 className="card-title">Made Clothing</h4>
+                                    <p className="card-text">Browse Clothing Online</p>
+                                    <p className="card-description">Made Clothing is a React application to browse clothing online. Discover the latest fashion trends.</p>
+                                </div>
+                                <div className="card-footer">
+                                    <a href="https://github.com/Matei87/made-clothing" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
+                                        <i className="fab fa-github" />
+                                    </a>
+                                    <a href="https://matei87.github.io/made-clothing/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
+                                        <i className="fas fa-rocket" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-6 col-md-6 col-lg-4 wow animate__animated animate__fadeInUp animate__delay-2s">
+                            <div className="card">
+                                <div className="card-header">
                                     <a href="https://matei87.github.io/Natours/" target="_blank" rel="noopener noreferrer">
                                         <img src={require("../../img/Natours.jpg")} alt="weather" className="card-img-top" />
                                     </a>
@@ -61,7 +86,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-sm-6 col-md-6 col-lg-4 wow animate__animated animate__fadeInUp animate__delay-2s">
+                        <div className="col-sm-6 col-md-6 col-lg-4 wow animate__animated animate__fadeInUp animate__delay-3s">
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/countries/#/" target="_blank" rel="noopener noreferrer">
@@ -80,31 +105,6 @@ class Projects extends React.Component {
                                         <i className="fab fa-github" />
                                     </a>
                                     <a href="https://matei87.github.io/countries/#/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
-                                        <i className="fas fa-rocket" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-sm-6 col-md-6 col-lg-4 wow animate__animated animate__fadeInUp animate__delay-3s">
-                            <div className="card">
-                                <div className="card-header">
-                                    <a href="https://matei87.github.io/E-Shop/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/site1.png")} alt="cinema" className="card-img-top" />
-                                    </a>
-                                </div>
-
-                                <div className="card-body">
-                                    <div className="card-category">Javascript</div>
-                                    <h4 className="card-title">E-Shop</h4>
-                                    <p className="card-text">E-Shop for Clothes</p>
-                                    <p className="card-description">E-Shop is a JavaScript application to browse clothing online. Discover the latest fashion trends.</p>
-                                </div>
-                                <div className="card-footer">
-                                    <a href="https://github.com/Matei87/E-Shop" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
-                                        <i className="fab fa-github" />
-                                    </a>
-                                    <a href="https://matei87.github.io/E-Shop/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
                                         <i className="fas fa-rocket" />
                                     </a>
                                 </div>
