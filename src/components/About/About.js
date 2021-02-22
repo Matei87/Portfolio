@@ -54,7 +54,7 @@ class About extends React.Component {
 
                     <div className="row" >
 
-                        <div className=" col-sm-12 col-md-6 about-me wow animate__animated animate__fadeInLeft animate__fast">
+                        <div className="col-sm-12 col-md-6 about-me wow animate__animated animate__fadeInLeft animate__fast">
                             <img src={require('../../img/me.png')} alt="me" />
                             <h4>Who's this guy?</h4>
                             <p>My name is <span className="name">Mircea</span> and I'm a front-end developer.
@@ -62,15 +62,16 @@ class About extends React.Component {
                             </p>
                         </div>
 
-                        <div className=" col-sm-12 col-md-6 skills wow animate__animated animate__fadeInRight animate__fast ">
+                        <div className="col-sm-12 col-md-6 skills wow animate__animated animate__fadeInRight animate__fast ">
                             <span className="item1">HTML5</span>
                             <span className="item2">CSS3</span>
                             <span className="item3">JavaScript</span>
                             <span className="item4">SASS</span>
                             <span className="item5">React</span>
-                            <span className="item6">Bootstrap</span>
+                            <span className="item6">Redux</span>
                             <span className="item7">NPM</span>
                             <span className="item8">Git</span>
+                            <span className="item9">Bootstrap</span>
                         </div>
 
                     </div>
