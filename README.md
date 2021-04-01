@@ -1,5 +1,5 @@
 # Portfolio
-Personal portfolio where i put my projects.
+Personal portfolio with some of my projects.
 
 # Built with
 

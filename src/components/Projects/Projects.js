@@ -48,13 +48,13 @@ class Projects extends React.Component {
                                     <div className="card-category">React</div>
                                     <h4 className="card-title">Made Clothing</h4>
                                     <p className="card-text">Browse Clothing Online</p>
-                                    <p className="card-description">Made Clothing is a React application to browse clothing online. Discover the latest fashion trends.</p>
+                                    <p className="card-description">Made Clothing is a shopping MERN application for clothings. Discover the latest fashion trends.</p>
                                 </div>
                                 <div className="card-footer">
-                                    <a href="https://github.com/Matei87/made-clothing" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
+                                    <a href="https://github.com/Matei87/made-clothing-FE-BE" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
                                         <i className="fab fa-github" />
                                     </a>
-                                    <a href="https://matei87.github.io/made-clothing/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
+                                    <a href="https://made-clothing.herokuapp.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">LIVE
                                         <i className="fas fa-rocket" />
                                     </a>
                                 </div>
