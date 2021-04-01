@@ -48,7 +48,7 @@ class Projects extends React.Component {
                                     <div className="card-category">React</div>
                                     <h4 className="card-title">Made Clothing</h4>
                                     <p className="card-text">Browse Clothing Online</p>
-                                    <p className="card-description">Made Clothing is a shopping MERN application for clothings. Discover the latest fashion trends.</p>
+                                    <p className="card-description">Made Clothing is a shopping MERN application for clothing. Discover the latest fashion trends.</p>
                                 </div>
                                 <div className="card-footer">
                                     <a href="https://github.com/Matei87/made-clothing-FE-BE" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">CODE
