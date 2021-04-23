@@ -72,9 +72,9 @@ class Navbar extends React.Component {
                                         Interests
                                     </Link>
                                 </div>
-                                <li className="nav-item">
+                                <div className="nav-item">
                                     <a href={myresume} className="nav-link">Resume</a>
-                                </li>
+                                </div>
                             </div>
                         </div>
                         </div>
