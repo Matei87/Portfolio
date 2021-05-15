@@ -11,7 +11,7 @@ class Interests extends React.Component {
 
                     <div className="row no-gutters">
                         <div className="col-sm-12 col-md-6 wow animate__animated animate__fadeIn animate__slower">
-                            <img src={require("../../img/coding.png")} alt="coding" />
+                            <img src={require("../../img/coding.png")} alt="coding-pic" />
                         </div>
                         <div className="col-sm-12 col-md-6">
                             <div>
@@ -29,13 +29,13 @@ class Interests extends React.Component {
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 wow animate__animated animate__fadeIn animate__slower">
-                            <img src={require("../../img/gym.jpeg")} alt="gym" />
+                            <img src={require("../../img/gym.jpeg")} alt="gym-pic" />
                         </div>
                     </div>
 
                     <div className="row no-gutters">
                         <div className="col-sm-12 col-md-6 wow animate__animated animate__fadeIn animate__slower">
-                            <img src={require("../../img/games.png")} alt="games" />
+                            <img src={require("../../img/games.png")} alt="games-pic" />
                         </div>
                         <div className="col-sm-12 col-md-6">
                             <div>

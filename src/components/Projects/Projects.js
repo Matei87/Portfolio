@@ -15,7 +15,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/movie-cloud/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/cinema.png")} alt="cinema" className="card-img-top" />
+                                        <img src={require("../../img/cinema.png")} alt="movie-cloud" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -40,7 +40,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/made-clothing/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/site2.png")} alt="cinema" className="card-img-top" />
+                                        <img src={require("../../img/site2.png")} alt="made-clothing" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -65,7 +65,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/Natours/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/Natours.jpg")} alt="weather" className="card-img-top" />
+                                        <img src={require("../../img/Natours.jpg")} alt="natours" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -90,7 +90,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/countries/#/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/world-countries.png")} alt="hyalogen" className="card-img-top" />
+                                        <img src={require("../../img/world-countries.png")} alt="world-countries" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -115,7 +115,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/BlogBoy/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/blog.png")} alt="cinema" className="card-img-top" />
+                                        <img src={require("../../img/blog.png")} alt="blog-boy" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -140,7 +140,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/Weathery/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/weather.png")} alt="cinema" className="card-img-top" />
+                                        <img src={require("../../img/weather.png")} alt="weathery" className="card-img-top" />
                                     </a>
                                 </div>
 
