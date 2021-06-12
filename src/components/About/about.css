@@ -1,112 +1,141 @@
 #about {
-    padding: 8rem 0;
-    background: rgba(255, 255, 255, 0.6);
-    overflow: hidden;
+  padding: 8rem 0;
+  background: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
 }
 
 #about > h3 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem; font-weight: 700;
-    margin-bottom: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
 }
 
 #about > h3 .dot {
-    display: inline-block;
-    position: relative;
-    top: 5px;
-    border-radius: 50%;
-    background: var(--goldish);
-    height: 10px; width: 10px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  border-radius: 50%;
+  background: var(--goldish);
+  height: 10px;
+  width: 10px;
 }
 #about .container .row:first-of-type {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
-#about .container .row:first-of-type .col-md-3 > div  {
-    text-align: center;
+#about .container .row:first-of-type .col-md-3 > div {
+  text-align: center;
 }
 
 #about .container .row:first-of-type .col-md-3 > div:first-child {
-    color: rgba(0, 34, 68, 0.8);
-    font-size: 3rem;
+  color: rgba(0, 34, 68, 0.8);
+  font-size: 3rem;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > h4 {
-    text-transform: uppercase; letter-spacing: 2px;
-    font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > p {
-    font-weight: 500; font-size: .95rem;
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 #about .container .row:last-of-type .about-me {
-    display: flex; justify-content: center;
-    align-items: center; flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #about .container .row:last-of-type .about-me img {
-    width: 200px; height: 200px;
-    clip-path: polygon(25% 10%, 75% 10%, 100% 50%, 100% 50%, 75% 90%, 25% 90%, 0 50%, 0 50%);
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(
+    25% 10%,
+    75% 10%,
+    100% 50%,
+    100% 50%,
+    75% 90%,
+    25% 90%,
+    0 50%,
+    0 50%
+  );
 }
 #about .container .row:last-of-type .about-me h4 {
-    font-weight: 700; margin-bottom: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 #about .container .row:last-of-type .about-me p {
-    display: inline !important; text-align: center;
-    font-size: .95rem; font-weight: 500;
-    max-width: 300px;
+  display: inline !important;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  max-width: 300px;
 }
 #about .container .row:last-of-type .about-me p span.name {
-     color: var(--pinkish);
+  color: var(--pinkish);
 }
 #about .container .row:last-of-type .skills {
-    display: grid;
-    grid-template-areas:
-      "item1 item1 item2 item2"
-      "item3 item3 item3 item4"
-      "item5 item6 item6 item6"
-      "item7 item7 item8 item8"
-      "item9 item9 item9 item9";
-    margin: 4rem 0 4rem 0;
+  display: grid;
+  grid-template-areas:
+    "item1 item1 item2 item2"
+    "item3 item3 item3 item4"
+    "item5 item6 item6 item6"
+    "item7 item7 item8 item8"
+    "item9 item10 item10 item10";
+  margin: 4rem 0 4rem 0;
 }
 #about .container .row:last-of-type .skills {
-    margin: auto 0;
+  margin: auto 0;
 }
 #about .container .row:last-of-type .skills span {
-    color: var(--whiteish); background: rgba(0, 34, 68, 0.8);
-    margin: .5rem; border: 3px solid var(--goldish);
-    font-weight: 600; font-size: 1.125rem;
-    display: flex; justify-content: center; align-items: center;
-    transition: all .15s; letter-spacing: 2px;
+  color: var(--whiteish);
+  background: rgba(0, 34, 68, 0.8);
+  margin: 0.5rem;
+  border: 3px solid var(--goldish);
+  font-weight: 600;
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.15s;
+  letter-spacing: 2px;
 }
 #about .container .row:last-of-type .skills span:hover {
-    background: var(--whiteish); color: rgba(0, 34, 68, 0.8);
-    cursor: pointer;
+  background: var(--whiteish);
+  color: rgba(0, 34, 68, 0.8);
+  cursor: pointer;
 }
 #about .container .row:last-of-type .skills span.item1 {
-    grid-area: item1;
+  grid-area: item1;
 }
 #about .container .row:last-of-type .skills span.item2 {
-    grid-area: item2;
+  grid-area: item2;
 }
 #about .container .row:last-of-type .skills span.item3 {
-    grid-area: item3;
+  grid-area: item3;
 }
 #about .container .row:last-of-type .skills span.item4 {
-    grid-area: item4;
+  grid-area: item4;
 }
 #about .container .row:last-of-type .skills span.item5 {
-    grid-area: item5;
+  grid-area: item5;
 }
 #about .container .row:last-of-type .skills span.item6 {
-    grid-area: item6;
+  grid-area: item6;
 }
 #about .container .row:last-of-type .skills span.item7 {
-    grid-area: item7;
+  grid-area: item7;
 }
 #about .container .row:last-of-type .skills span.item8 {
-    grid-area: item8;
+  grid-area: item8;
 }
 #about .container .row:last-of-type .skills span.item9 {
-    grid-area: item9;
+  grid-area: item9;
+}
+#about .container .row:last-of-type .skills span.item10 {
+  grid-area: item10;
 }
 
 /*
@@ -117,34 +146,33 @@ MEDIA QUERIES
 
 /* EXTRA SMALL*/
 @media (max-width: 575.98px) {
-    #about .container .row:first-of-type {
-        justify-content: center;
-    }
-    #about .container .row:first-of-type .col-sm-6 {
-        width: 47%;  padding: 0 5px;
-    }
-    #about .container .row:first-of-type .col-sm-6 h4 {
-        font-size: 1.2rem; font-weight: 700 !important;
-    }
+  #about .container .row:first-of-type {
+    justify-content: center;
+  }
+  #about .container .row:first-of-type .col-sm-6 {
+    width: 47%;
+    padding: 0 5px;
+  }
+  #about .container .row:first-of-type .col-sm-6 h4 {
+    font-size: 1.2rem;
+    font-weight: 700 !important;
+  }
 }
 /* SMALL */
 @media (max-width: 767.98px) {
-    #about {
-        padding: 6rem 0 3rem;
-    }
+  #about {
+    padding: 6rem 0 3rem;
+  }
 }
 
 /* MEDIUM */
 @media (max-width: 991.98px) {
-
 }
 
 /* LARGE */
 @media (max-width: 1199.98px) {
-
 }
 
 /* EXTRA LARGE*/
 @media (min-width: 1200px) {
-
 }

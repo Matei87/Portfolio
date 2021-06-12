@@ -1,6 +1,13 @@
 import React from 'react';
 import './projects.css';
 
+import movie_cloud from "../../img/cinema.png";
+import made_clothing from "../../img/site2.png";
+import natours from "../../img/Natours.jpg";
+import world_countries from "../../img/world-countries.png";
+import blog_boy from "../../img/blog.png";
+import weathery from "../../img/weather.png";
+
 
 class Projects extends React.Component {
     render() {
@@ -15,7 +22,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/movie-cloud/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/cinema.png")} alt="movie-cloud" className="card-img-top" />
+                                        <img src={movie_cloud} alt="movie-cloud" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -40,7 +47,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/made-clothing/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/site2.png")} alt="made-clothing" className="card-img-top" />
+                                        <img src={made_clothing} alt="made-clothing" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -65,7 +72,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/Natours/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/Natours.jpg")} alt="natours" className="card-img-top" />
+                                        <img src={natours} alt="natours" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -90,7 +97,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/countries/#/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/world-countries.png")} alt="world-countries" className="card-img-top" />
+                                        <img src={world_countries} alt="world-countries" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -115,7 +122,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/BlogBoy/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/blog.png")} alt="blog-boy" className="card-img-top" />
+                                        <img src={blog_boy} alt="blog-boy" className="card-img-top" />
                                     </a>
                                 </div>
 
@@ -140,7 +147,7 @@ class Projects extends React.Component {
                             <div className="card">
                                 <div className="card-header">
                                     <a href="https://matei87.github.io/Weathery/" target="_blank" rel="noopener noreferrer">
-                                        <img src={require("../../img/weather.png")} alt="weathery" className="card-img-top" />
+                                        <img src={weathery} alt="weathery" className="card-img-top" />
                                     </a>
                                 </div>
 

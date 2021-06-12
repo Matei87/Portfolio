@@ -1,6 +1,8 @@
 import React from 'react';
 import './about.css';
 
+import me from '../../img/me.png';
+
 class About extends React.Component {
 
     render() {
@@ -55,7 +57,7 @@ class About extends React.Component {
                     <div className="row" >
 
                         <div className="col-sm-12 col-md-6 about-me wow animate__animated animate__fadeInLeft animate__fast">
-                            <img src={require('../../img/me.png')} alt="me" />
+                            <img src={me} alt="me" />
                             <h4>Who's this guy?</h4>
                             <p>My name is <span className="name">Mircea</span> and I'm a front-end developer.
                                 I enjoy spending my free time increasing my knowledge of Web Development and building new and challenging projects.
@@ -71,7 +73,8 @@ class About extends React.Component {
                             <span className="item6">Redux</span>
                             <span className="item7">NPM</span>
                             <span className="item8">Git</span>
-                            <span className="item9">Bootstrap</span>
+                            <span className="item9">JIRA</span>
+                            <span className="item10">Bootstrap</span>
                         </div>
 
                     </div>
