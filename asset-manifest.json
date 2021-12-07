@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.71653afc.chunk.css",
-    "main.js": "/Portfolio/static/js/main.20886878.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.20886878.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.83e7ef51.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.83e7ef51.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.71861f95.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.71861f95.js.map",
     "static/css/2.1906b955.chunk.css": "/Portfolio/static/css/2.1906b955.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/gym.021aab5c.jpeg": "/Portfolio/static/media/gym.021aab5c.jpeg",
     "static/media/header.css": "/Portfolio/static/media/header-background.6c98e1ff.jpg",
     "static/media/me.2b0e722d.png": "/Portfolio/static/media/me.2b0e722d.png",
-    "static/media/myresume.4adfdd35.pdf": "/Portfolio/static/media/myresume.4adfdd35.pdf",
+    "static/media/myresume.04ca1626.pdf": "/Portfolio/static/media/myresume.04ca1626.pdf",
     "static/media/site2.99fa2d6b.png": "/Portfolio/static/media/site2.99fa2d6b.png",
     "static/media/weather.8251fe14.png": "/Portfolio/static/media/weather.8251fe14.png",
     "static/media/world-countries.405490d8.png": "/Portfolio/static/media/world-countries.405490d8.png"
@@ -30,6 +30,6 @@
     "static/css/2.1906b955.chunk.css",
     "static/js/2.8ca6df85.chunk.js",
     "static/css/main.71653afc.chunk.css",
-    "static/js/main.20886878.chunk.js"
+    "static/js/main.83e7ef51.chunk.js"
   ]
 }
