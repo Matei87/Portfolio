@@ -21,8 +21,8 @@ const Interests = () => {
             <div>
               <h4>Coding</h4>
               <p>
-                I’m passionate about coding. Because it is usable art. You can
-                create something that people interact with, use, touch and work
+                I’m passionate about coding. Because it is usable art.
+                You can create something that people interact with, use, touch and work
                 with.
               </p>
             </div>

@@ -50,3 +50,11 @@ nav a.nav-link::after {
 nav a.nav-link:hover:after {
     width: 100%;
 }
+
+nav a.active {
+    text-decoration: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}

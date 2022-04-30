@@ -40,7 +40,6 @@ const Contact = () => {
       </div>
 
       <footer>
-        {' '}
         <p>
           Made by <span>Matei Mircea</span> @ 2020 - {new Date().getFullYear()}{' '}
         </p>

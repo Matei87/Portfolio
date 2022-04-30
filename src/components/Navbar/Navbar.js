@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-dark' id='main-navigation'>
-      <div className='container'>
+      <div className='container-lg'>
         <div className='navbar-brand'>
           <Link to='header' spy={true} smooth={true} duration={500}>
             MM
@@ -15,8 +15,8 @@ const Navbar = () => {
         <button
           className='navbar-toggler'
           type='button'
-          data-toggle='collapse'
-          data-target='#mynav'
+          data-bs-toggle='collapse'
+          data-bs-target='#mynav'
           aria-controls='mynav'
           aria-expanded='false'
           aria-label='Toggle navigation'
@@ -25,12 +25,13 @@ const Navbar = () => {
         </button>
 
         <div className='collapse navbar-collapse' id='mynav'>
-          <div className='navbar-nav ml-auto'>
+          <div className='navbar-nav ms-auto'>
             <div className='nav-item'>
               <Link
                 activeClass='active'
                 className='nav-link'
                 to='header'
+                offset={10}
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -43,6 +44,7 @@ const Navbar = () => {
                 activeClass='active'
                 className='nav-link'
                 to='about'
+                offset={10}
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -55,6 +57,7 @@ const Navbar = () => {
                 activeClass='active'
                 className='nav-link'
                 to='projects'
+                offset={10}
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -67,6 +70,7 @@ const Navbar = () => {
                 activeClass='active'
                 className='nav-link'
                 to='interests'
+                offset={10}
                 spy={true}
                 smooth={true}
                 duration={500}
