@@ -42,7 +42,7 @@ const Contact = () => {
       <footer>
         {' '}
         <p>
-          Made by <span>Matei Mircea</span> @ {new Date().getFullYear()}{' '}
+          Made by <span>Matei Mircea</span> @ 2020 - {new Date().getFullYear()}{' '}
         </p>
       </footer>
     </section>
