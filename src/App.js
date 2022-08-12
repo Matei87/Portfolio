@@ -14,7 +14,7 @@ import { WOW } from 'wowjs';
 
 class App extends React.Component {
   componentDidMount() {
-    new WOW().init();
+    new WOW({ live: false }).init();
   }
 
   render() {
