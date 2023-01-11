@@ -79,11 +79,12 @@
 #about .container .row:last-of-type .skills {
   display: grid;
   grid-template-areas:
-    'item1 item1 item2 item2'
-    'item3 item3 item3 item4'
-    'item5 item6 item6 item6'
-    'item7 item7 item8 item8'
-    'item9 item10 item10 item10';
+    'item1 item2 item2 item3'
+    'item4 item4 item4 item5'
+    'item6 item6 item7 item7'
+    'item8 item8 item8 item9'
+    'item10 item10 item11 item12'
+    'item13 item14 item14 item15';
   margin: 4rem 0 4rem 0;
 }
 #about .container .row:last-of-type .skills {
@@ -136,6 +137,21 @@
 }
 #about .container .row:last-of-type .skills span.item10 {
   grid-area: item10;
+}
+#about .container .row:last-of-type .skills span.item11 {
+  grid-area: item11;
+}
+#about .container .row:last-of-type .skills span.item12 {
+  grid-area: item12;
+}
+#about .container .row:last-of-type .skills span.item13 {
+  grid-area: item13;
+}
+#about .container .row:last-of-type .skills span.item14 {
+  grid-area: item14;
+}
+#about .container .row:last-of-type .skills span.item15 {
+  grid-area: item15;
 }
 
 /*

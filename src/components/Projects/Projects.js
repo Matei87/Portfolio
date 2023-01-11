@@ -101,7 +101,7 @@ const Projects = () => {
                   <i className='fab fa-github' />
                 </a>
                 <a
-                  href='https://made-clothing.herokuapp.com'
+                  href='https://made-clothing.onrender.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'

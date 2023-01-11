@@ -67,14 +67,19 @@ const About = () => {
           <div className='col-sm-12 col-md-6 skills wow animate__animated animate__fadeInRight animate__fast '>
             <span className='item1'>HTML5</span>
             <span className='item2'>CSS3</span>
-            <span className='item3'>JavaScript</span>
-            <span className='item4'>SASS</span>
+            <span className='item3'>SASS</span>
+            <span className='item4'>JavaScript</span>
             <span className='item5'>React</span>
             <span className='item6'>Redux</span>
-            <span className='item7'>NPM</span>
-            <span className='item8'>Git</span>
-            <span className='item9'>JIRA</span>
-            <span className='item10'>Bootstrap</span>
+            <span className='item7'>NextJS</span>
+            <span className='item8'>NodeJS</span>
+            <span className='item9'>TypeScript</span>
+            <span className='item10'>NPM</span>
+            <span className='item11'>Yarn</span>
+            <span className='item12'>Git</span>
+            <span className='item13'>JIRA</span>
+            <span className='item14'>Bootstrap</span>
+            <span className='item15'>Ant Design</span>
           </div>
         </div>
       </div>
