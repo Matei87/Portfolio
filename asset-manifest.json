@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c5d1d35a.css",
-    "main.js": "/Portfolio/static/js/main.13f56f85.js",
+    "main.css": "/Portfolio/static/css/main.38fae647.css",
+    "main.js": "/Portfolio/static/js/main.d4643e2b.js",
     "static/media/site2.png": "/Portfolio/static/media/site2.99fa2d6b5e241ae75353.png",
     "static/media/me.png": "/Portfolio/static/media/me.2b0e722dade0f0e2b700.png",
     "static/media/weather.png": "/Portfolio/static/media/weather.8251fe14350a6c1d01d7.png",
@@ -10,16 +10,16 @@
     "static/media/gym.jpeg": "/Portfolio/static/media/gym.021aab5ca114871bb225.jpeg",
     "static/media/games.png": "/Portfolio/static/media/games.7f7817df1b82969e8130.png",
     "static/media/cinema.png": "/Portfolio/static/media/cinema.11529b624a7655386e4b.png",
-    "static/media/myresume.pdf": "/Portfolio/static/media/myresume.63ec7e6aedd783edad9f.pdf",
+    "static/media/myresume.pdf": "/Portfolio/static/media/myresume.a2be85df0478cd4d4f94.pdf",
     "static/media/world-countries.png": "/Portfolio/static/media/world-countries.405490d815042d6ba7b3.png",
     "static/media/Natours.jpg": "/Portfolio/static/media/Natours.101af3acac0ecc5a23b7.jpg",
     "static/media/blog.png": "/Portfolio/static/media/blog.a3b732f2aaf2425fa995.png",
     "index.html": "/Portfolio/index.html",
-    "main.c5d1d35a.css.map": "/Portfolio/static/css/main.c5d1d35a.css.map",
-    "main.13f56f85.js.map": "/Portfolio/static/js/main.13f56f85.js.map"
+    "main.38fae647.css.map": "/Portfolio/static/css/main.38fae647.css.map",
+    "main.d4643e2b.js.map": "/Portfolio/static/js/main.d4643e2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5d1d35a.css",
-    "static/js/main.13f56f85.js"
+    "static/css/main.38fae647.css",
+    "static/js/main.d4643e2b.js"
   ]
 }
