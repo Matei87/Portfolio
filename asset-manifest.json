@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a182a9e2.css",
+    "main.css": "/Portfolio/static/css/main.82be0a19.css",
     "main.js": "/Portfolio/static/js/main.b1703946.js",
     "static/media/maogym.png": "/Portfolio/static/media/maogym.3e4b96cb1a61baf154be.png",
     "static/media/site2.png": "/Portfolio/static/media/site2.99fa2d6b5e241ae75353.png",
@@ -15,11 +15,11 @@
     "static/media/Natours.jpg": "/Portfolio/static/media/Natours.101af3acac0ecc5a23b7.jpg",
     "static/media/blog.png": "/Portfolio/static/media/blog.a3b732f2aaf2425fa995.png",
     "index.html": "/Portfolio/index.html",
-    "main.a182a9e2.css.map": "/Portfolio/static/css/main.a182a9e2.css.map",
+    "main.82be0a19.css.map": "/Portfolio/static/css/main.82be0a19.css.map",
     "main.b1703946.js.map": "/Portfolio/static/js/main.b1703946.js.map"
   },
   "entrypoints": [
-    "static/css/main.a182a9e2.css",
+    "static/css/main.82be0a19.css",
     "static/js/main.b1703946.js"
   ]
 }
