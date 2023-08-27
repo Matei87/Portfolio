@@ -51,6 +51,7 @@
 #about .container .row:last-of-type .about-me img {
   width: 200px;
   height: 200px;
+  object-fit: cover;
   clip-path: polygon(
     25% 10%,
     75% 10%,

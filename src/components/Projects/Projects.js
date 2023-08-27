@@ -6,7 +6,7 @@ import made_clothing from '../../img/site2.png';
 import natours from '../../img/Natours.jpg';
 import world_countries from '../../img/world-countries.png';
 import blog_boy from '../../img/blog.png';
-import weathery from '../../img/weather.png';
+import maogym from '../../img/maogym.png';
 
 const Projects = () => {
   return (
@@ -117,26 +117,26 @@ const Projects = () => {
             <div className='card'>
               <div className='card-header'>
                 <a
-                  href='https://matei87.github.io/Natours/'
+                  href='https://matei87.github.io/maogym/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <img src={natours} alt='natours' className='card-img-top' />
+                  <img src={maogym} alt='maogym' className='card-img-top' />
                 </a>
               </div>
 
               <div className='card-body'>
-                <div className='card-category'>React</div>
-                <h4 className='card-title'>Natours</h4>
-                <p className='card-text'>Travel Platform</p>
+                <div className='card-category'>TypeScript</div>
+                <h4 className='card-title'>Maogym</h4>
+                <p className='card-text'>Fitness Website</p>
                 <p className='card-description'>
-                  Natours is a Travel Platform where you can browse your
-                  favorite destination to visit and explore.
+                  MAOGYM is a Single Page Application website for Fitness
+                  Lovers.
                 </p>
               </div>
               <div className='card-footer'>
                 <a
-                  href='https://github.com/Matei87/Natours'
+                  href='https://github.com/Matei87/maogym'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'
@@ -145,7 +145,7 @@ const Projects = () => {
                   <i className='fab fa-github' />
                 </a>
                 <a
-                  href='https://matei87.github.io/Natours/'
+                  href='https://matei87.github.io/maogym//'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'
@@ -251,26 +251,26 @@ const Projects = () => {
             <div className='card'>
               <div className='card-header'>
                 <a
-                  href='https://matei87.github.io/Weathery/'
+                  href='https://matei87.github.io/Natours/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <img src={weathery} alt='weathery' className='card-img-top' />
+                  <img src={natours} alt='natours' className='card-img-top' />
                 </a>
               </div>
 
               <div className='card-body'>
-                <div className='card-category'>JavaScript</div>
-                <h4 className='card-title'>WeatherY</h4>
-                <p className='card-text'>Weather Forecast App</p>
+                <div className='card-category'>React</div>
+                <h4 className='card-title'>Natours</h4>
+                <p className='card-text'>Travel Platform</p>
                 <p className='card-description'>
-                  Weathery is an online web application where you can check the
-                  weather of any place around the world.
+                  Natours is a Travel Platform where you can browse your
+                  favorite destination to visit and explore.
                 </p>
               </div>
               <div className='card-footer'>
                 <a
-                  href='https://github.com/Matei87/Weathery'
+                  href='https://github.com/Matei87/Natours'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'
@@ -279,7 +279,7 @@ const Projects = () => {
                   <i className='fab fa-github' />
                 </a>
                 <a
-                  href='https://matei87.github.io/Weathery/'
+                  href='https://matei87.github.io/Natours/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'

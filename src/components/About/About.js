@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 
-import me from '../../img/me.png';
+import me from '../../img/me.jpg';
 
 const About = () => {
   return (
