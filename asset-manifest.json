@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.38fae647.css",
-    "main.js": "/Portfolio/static/js/main.d4643e2b.js",
+    "main.css": "/Portfolio/static/css/main.a182a9e2.css",
+    "main.js": "/Portfolio/static/js/main.b1703946.js",
+    "static/media/maogym.png": "/Portfolio/static/media/maogym.3e4b96cb1a61baf154be.png",
     "static/media/site2.png": "/Portfolio/static/media/site2.99fa2d6b5e241ae75353.png",
-    "static/media/me.png": "/Portfolio/static/media/me.2b0e722dade0f0e2b700.png",
-    "static/media/weather.png": "/Portfolio/static/media/weather.8251fe14350a6c1d01d7.png",
     "static/media/coding.png": "/Portfolio/static/media/coding.4af819fbbfdaeed22df7.png",
     "static/media/header-background.jpg": "/Portfolio/static/media/header-background.6c98e1ff23a31c9756a5.jpg",
     "static/media/gym.jpeg": "/Portfolio/static/media/gym.021aab5ca114871bb225.jpeg",
     "static/media/games.png": "/Portfolio/static/media/games.7f7817df1b82969e8130.png",
     "static/media/cinema.png": "/Portfolio/static/media/cinema.11529b624a7655386e4b.png",
+    "static/media/me.jpg": "/Portfolio/static/media/me.bc7ee19d1ff5c36b9d2c.jpg",
     "static/media/myresume.pdf": "/Portfolio/static/media/myresume.a2be85df0478cd4d4f94.pdf",
     "static/media/world-countries.png": "/Portfolio/static/media/world-countries.405490d815042d6ba7b3.png",
     "static/media/Natours.jpg": "/Portfolio/static/media/Natours.101af3acac0ecc5a23b7.jpg",
     "static/media/blog.png": "/Portfolio/static/media/blog.a3b732f2aaf2425fa995.png",
     "index.html": "/Portfolio/index.html",
-    "main.38fae647.css.map": "/Portfolio/static/css/main.38fae647.css.map",
-    "main.d4643e2b.js.map": "/Portfolio/static/js/main.d4643e2b.js.map"
+    "main.a182a9e2.css.map": "/Portfolio/static/css/main.a182a9e2.css.map",
+    "main.b1703946.js.map": "/Portfolio/static/js/main.b1703946.js.map"
   },
   "entrypoints": [
-    "static/css/main.38fae647.css",
-    "static/js/main.d4643e2b.js"
+    "static/css/main.a182a9e2.css",
+    "static/js/main.b1703946.js"
   ]
 }
