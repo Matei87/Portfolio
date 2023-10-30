@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.82be0a19.css",
-    "main.js": "/Portfolio/static/js/main.b1703946.js",
+    "main.js": "/Portfolio/static/js/main.7f009fcf.js",
     "static/media/maogym.png": "/Portfolio/static/media/maogym.3e4b96cb1a61baf154be.png",
     "static/media/site2.png": "/Portfolio/static/media/site2.99fa2d6b5e241ae75353.png",
     "static/media/coding.png": "/Portfolio/static/media/coding.4af819fbbfdaeed22df7.png",
@@ -10,16 +10,16 @@
     "static/media/games.png": "/Portfolio/static/media/games.7f7817df1b82969e8130.png",
     "static/media/cinema.png": "/Portfolio/static/media/cinema.11529b624a7655386e4b.png",
     "static/media/me.jpg": "/Portfolio/static/media/me.bc7ee19d1ff5c36b9d2c.jpg",
-    "static/media/myresume.pdf": "/Portfolio/static/media/myresume.a2be85df0478cd4d4f94.pdf",
+    "static/media/myresume.pdf": "/Portfolio/static/media/myresume.8550b9b23c16f8ed5cd8.pdf",
     "static/media/world-countries.png": "/Portfolio/static/media/world-countries.405490d815042d6ba7b3.png",
     "static/media/Natours.jpg": "/Portfolio/static/media/Natours.101af3acac0ecc5a23b7.jpg",
     "static/media/blog.png": "/Portfolio/static/media/blog.a3b732f2aaf2425fa995.png",
     "index.html": "/Portfolio/index.html",
     "main.82be0a19.css.map": "/Portfolio/static/css/main.82be0a19.css.map",
-    "main.b1703946.js.map": "/Portfolio/static/js/main.b1703946.js.map"
+    "main.7f009fcf.js.map": "/Portfolio/static/js/main.7f009fcf.js.map"
   },
   "entrypoints": [
     "static/css/main.82be0a19.css",
-    "static/js/main.b1703946.js"
+    "static/js/main.7f009fcf.js"
   ]
 }
