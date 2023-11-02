@@ -5,7 +5,7 @@ import movie_cloud from '../../img/cinema.png';
 import made_clothing from '../../img/site2.png';
 import natours from '../../img/Natours.jpg';
 import world_countries from '../../img/world-countries.png';
-import blog_boy from '../../img/blog.png';
+import artistry from '../../img/artist.png';
 import maogym from '../../img/maogym.png';
 
 const Projects = () => {
@@ -69,30 +69,29 @@ const Projects = () => {
             <div className='card'>
               <div className='card-header'>
                 <a
-                  href='https://matei87.github.io/made-clothing/'
+                  href='https://matei87.github.io/artistry/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <img
-                    src={made_clothing}
-                    alt='made-clothing'
-                    className='card-img-top'
+                    src={artistry}
+                    alt='artistry'
+                    className='card-img-top artistry'
                   />
                 </a>
               </div>
 
               <div className='card-body'>
-                <div className='card-category'>React</div>
-                <h4 className='card-title'>Made Clothing</h4>
-                <p className='card-text'>Browse Clothing Online</p>
+                <div className='card-category'>TypeScript</div>
+                <h4 className='card-title'>ARTISTRY</h4>
+                <p className='card-text'>Painting presentation website</p>
                 <p className='card-description'>
-                  Made Clothing is a shopping MERN application for clothing.
-                  Discover the latest fashion trends.
+                  A presentational website for a painting enthusiast.
                 </p>
               </div>
               <div className='card-footer'>
                 <a
-                  href='https://github.com/Matei87/made-clothing-FE-BE'
+                  href='https://github.com/Matei87/artistry'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'
@@ -101,7 +100,7 @@ const Projects = () => {
                   <i className='fab fa-github' />
                 </a>
                 <a
-                  href='https://made-clothing.onrender.com/'
+                  href='https://matei87.github.io/artistry/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'
@@ -208,25 +207,30 @@ const Projects = () => {
             <div className='card'>
               <div className='card-header'>
                 <a
-                  href='https://matei87.github.io/BlogBoy/'
+                  href='https://matei87.github.io/made-clothing/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <img src={blog_boy} alt='blog-boy' className='card-img-top' />
+                  <img
+                    src={made_clothing}
+                    alt='made-clothing'
+                    className='card-img-top'
+                  />
                 </a>
               </div>
 
               <div className='card-body'>
-                <div className='card-category'>Bootstrap</div>
-                <h4 className='card-title'>BlogBoy</h4>
-                <p className='card-text'>Blog for latest IT News</p>
+                <div className='card-category'>React</div>
+                <h4 className='card-title'>Made Clothing</h4>
+                <p className='card-text'>Browse Clothing Online</p>
                 <p className='card-description'>
-                  A responsive Bootstrap Blog theme with admin page.
+                  Made Clothing is a shopping MERN application for clothing.
+                  Discover the latest fashion trends.
                 </p>
               </div>
               <div className='card-footer'>
                 <a
-                  href='https://github.com/Matei87/BlogBoy'
+                  href='https://github.com/Matei87/made-clothing-FE-BE'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'
@@ -235,7 +239,7 @@ const Projects = () => {
                   <i className='fab fa-github' />
                 </a>
                 <a
-                  href='https://matei87.github.io/BlogBoy/'
+                  href='https://made-clothing.onrender.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn btn-outline-primary'

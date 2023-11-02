@@ -115,6 +115,9 @@
   transform: scale(1);
   transition: transform 0.7s ease, opacity 0.7s ease;
 }
+#projects .container .row .col-md-6 .card .card-header img.artistry {
+  object-fit: contain;
+}
 #projects .container .row .col-md-6 .card:hover .card-header img {
   opacity: 0.9;
   transform: scale(1.3);
