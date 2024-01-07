@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import About from './components/About/About';
@@ -12,23 +12,21 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'animate.css/animate.min.css';
 import { WOW } from 'wowjs';
 
-class App extends React.Component {
-  componentDidMount() {
+const App = () => {
+  useEffect(() => {
     new WOW({ live: false }).init();
-  }
+  }, []);
 
-  render() {
-    return (
-      <>
-        <Navbar />
-        <Header />
-        <About />
-        <Projects />
-        <Interests />
-        <Contact />
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <Navbar />
+      <Header />
+      <About />
+      <Projects />
+      <Interests />
+      <Contact />
+    </>
+  );
+};
 
 export default App;

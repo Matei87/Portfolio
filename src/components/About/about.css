@@ -17,7 +17,7 @@
   position: relative;
   top: 5px;
   border-radius: 50%;
-  background: var(--goldish);
+  background: var(--gold);
   height: 10px;
   width: 10px;
 }
@@ -29,7 +29,7 @@
 }
 
 #about .container .row:first-of-type .col-md-3 > div:first-child {
-  color: rgba(0, 34, 68, 0.8);
+  color: var(--whiteblue);
   font-size: 3rem;
 }
 #about .container .row:first-of-type .col-md-3 > div:last-child > h4 {
@@ -94,9 +94,9 @@
 }
 #about .container .row:last-of-type .skills span {
   color: var(--whiteish);
-  background: rgba(0, 34, 68, 0.8);
+  background: var(--whiteblue);
   margin: 0.5rem;
-  border: 3px solid var(--goldish);
+  border: 3px solid var(--gold);
   font-weight: 600;
   font-size: 1.125rem;
   display: flex;

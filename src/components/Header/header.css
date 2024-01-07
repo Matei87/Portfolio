@@ -3,8 +3,8 @@ header {
   width: 100%;
   background: linear-gradient(
       to right bottom,
-      rgba(119, 119, 119, 0.8),
-      rgba(51, 51, 51, 0.8)
+      var(--linear-gradient1),
+      var(--linear-gradient2)
     ),
     url('../../img/header-background.jpg');
   background-position: top center;
@@ -44,8 +44,8 @@ header a {
   color: var(--whiteish) !important;
 }
 header a:hover {
-  background: var(--goldish) !important;
-  border: 2px solid var(--goldish) !important;
+  background: var(--gold) !important;
+  border: 2px solid var(--gold) !important;
   text-decoration: none;
   color: var(--whiteish);
 }
