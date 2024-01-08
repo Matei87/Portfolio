@@ -3,9 +3,9 @@ import React, { useEffect, createContext, useState } from 'react';
 const ThemeContext = createContext(null);
 
 const getTheme = () => {
-  const theme = localStorage.getItem('theme');
+  const theme = localStorage.getItem('portfolio-theme');
   if (!theme) {
-    localStorage.setItem('theme', 'light');
+    localStorage.setItem('portfolio-theme', 'light');
     return 'light';
   } else {
     return theme;
@@ -17,7 +17,7 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const refreshTheme = () => {
-      localStorage.setItem('theme', theme);
+      localStorage.setItem('portfolio-theme', theme);
       document.querySelector('body').setAttribute('data-theme', theme);
     };
 
