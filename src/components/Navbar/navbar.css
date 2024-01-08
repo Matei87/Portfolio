@@ -48,7 +48,7 @@ nav a.nav-link::after {
   content: '';
   border-bottom: 2px solid var(--pinkish);
   width: 0;
-  transition: all 0.35s ease;
+  transition: all 0.35s linear;
 }
 nav a.nav-link:hover:after {
   width: 100%;
@@ -58,11 +58,57 @@ nav a.active {
   text-decoration: none;
 }
 
-nav button {
-  background-color: transparent;
-  border: none;
+nav .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-item .theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.35s linear;
+  cursor: pointer;
+}
+
+nav .nav-item .theme:hover {
+  border-radius: 50%;
+  background: #e2e2e2;
 }
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+/*
+-------------------------------------------
+MEDIA QUERIES
+-------------------------------------------
+*/
+
+/* EXTRA SMALL*/
+@media (max-width: 575.98px) {
+}
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* MEDIUM */
+@media (max-width: 991.98px) {
+  nav .nav-item {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+/* LARGE */
+@media (max-width: 1199.98px) {
+}
+
+/* EXTRA LARGE*/
+@media (min-width: 1200px) {
 }

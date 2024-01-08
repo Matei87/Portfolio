@@ -24,7 +24,6 @@ html {
   scrollbar-width: thin;
   scroll-behavior: smooth;
   scrollbar-color: rgba(255, 255, 255, 0.6) rgb(130, 123, 125);
-  transition: all 0.35s ease;
 }
 
 body {
@@ -34,7 +33,6 @@ body {
 }
 
 body[data-theme='light'] {
-  background: #00224499 !important;
   --white: #fff;
   --gold: #eebc1d;
   --whiteish: #f7f7f7;
@@ -49,11 +47,11 @@ body[data-theme='light'] {
   --navbar: #343a40;
   --linear-gradient1: #777777cc;
   --linear-gradient2: #333333cc;
+  background-color: #00224499 !important;
+  transition: all 0.35s ease-in-out;
 }
 
 body[data-theme='dark'] {
-  background: #212a2e !important;
-  color: #808080;
   --white: #fff;
   --gold: #facd3d;
   --whiteish: #fff;
@@ -68,6 +66,9 @@ body[data-theme='dark'] {
   --navbar: #152028;
   --linear-gradient1: #413f3fcc;
   --linear-gradient2: #020202cc;
+  background-color: #212a2e !important;
+  color: #808080;
+  transition: all 0.35s ease-in-out;
 }
 
 body[data-theme='dark'] img {

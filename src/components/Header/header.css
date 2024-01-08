@@ -44,7 +44,7 @@ header a {
   color: var(--whiteish) !important;
 }
 header a:hover {
-  background: var(--gold) !important;
+  background-color: var(--gold) !important;
   border: 2px solid var(--gold) !important;
   text-decoration: none;
   color: var(--whiteish);
