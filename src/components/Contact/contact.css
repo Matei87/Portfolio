@@ -21,13 +21,8 @@
   height: 10px;
   width: 10px;
 }
-#contact .row .col-md-12 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-#contact .row .col-md-12 a {
+#contact .row .col-12 a {
   padding: 0.35rem 1rem;
   font-size: 1.5rem;
   border: 2px solid var(--white);
@@ -38,9 +33,19 @@
   margin: 0 1rem;
 }
 
-#contact .row .col-md-12 a:hover {
+#contact .row .col-12 a:hover {
   background-color: var(--gold);
   border: 2px solid var(--gold);
+}
+
+#contact form label {
+  color: var(--white);
+}
+
+#contact form button {
+  background-color: var(--pinkish);
+  border-color: var(--pinkish);
+  font-weight: 600;
 }
 
 #contact footer {
@@ -57,6 +62,7 @@
 #contact footer p {
   margin: 0;
 }
+
 #contact footer span {
   color: var(--pinkish);
 }
